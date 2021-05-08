@@ -1,4 +1,4 @@
-# PyImageSearch university courses
+# Computer Vision learning
 
 ## OpenCV 101
 
