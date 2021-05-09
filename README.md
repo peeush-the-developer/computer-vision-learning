@@ -15,5 +15,6 @@ This is the most basic thing to understand how we can use OpenCV for image proce
 - [Image arithmetic in OpenCV](OpenCV-101/9.opencv-image-arithmetic/image_arithmetic.py)
 - [Bitwise ops in OpenCV](OpenCV-101/10.opencv-bitwise/opencv_bitwise.py)
 - [Masking ROI using OpenCV](OpenCV-101/11.opencv-masking/opencv_masking.py)
+- [Channels splitting and merging](OpenCV-101/12.opencv-split-merge/opencv_channels.py)
 
 _More will be added soon..._
