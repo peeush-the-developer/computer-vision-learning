@@ -8,13 +8,15 @@ import cv2
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,
-	help="path to input image")
+                help="path to input image")
+ap.add_argument("-o", "--output", required=True,
+                help="Path to output image")
 args = vars(ap.parse_args())
 
 # load the image from disk via "cv2.imread" and then grab the spatial
 # dimensions, including width, height, and number of channels
-# image = cv2.imread(args["image"])
-image = cv2.imread("randomimage.jpg")
+image = cv2.imread(args["image"])
+# image = cv2.imread("randomimage.jpg")
 (h, w, c) = image.shape[:3]
 
 # display the image width, height, and number of channels to our
@@ -29,4 +31,4 @@ cv2.waitKey(0)
 
 # save the image back to disk (OpenCV handles converting image
 # filetypes automatically)
-cv2.imwrite("newimage.jpg", image)
+cv2.imwrite(args["output"], image)
