@@ -8,7 +8,7 @@ import argparse
 # Add arguments from command line
 ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--input", type=str, required=True, help="Input image")
-ap.add_argument("-o", "--output", type=str, required=True,
+ap.add_argument("-o", "--output", type=str, required=False,
                 help="Output image folder path")
 args = vars(ap.parse_args())
 
