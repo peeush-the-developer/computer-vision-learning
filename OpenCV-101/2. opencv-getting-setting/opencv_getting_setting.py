@@ -4,9 +4,7 @@ import cv2
 
 # Add argument to get input from CLI
 ap = argparse.ArgumentParser()
-ap.add_argument(
-    "-i", "--image", type=str, help="Input image", required=False, default="adrian.png"
-)
+ap.add_argument("-i", "--image", type=str, help="Input image", required=True)
 args = vars(ap.parse_args())
 
 # Read the original image
