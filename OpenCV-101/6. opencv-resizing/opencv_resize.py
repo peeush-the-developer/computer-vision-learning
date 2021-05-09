@@ -1,3 +1,6 @@
+# Usage
+# python opencv_resize.py -i ../../Data/Input/opencv_logo.png
+
 # import the libraries
 import cv2
 import argparse
@@ -5,7 +8,7 @@ import imutils
 
 # Add arguments from command line args
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", type=str, default="adrian.png", help="Input image")
+ap.add_argument("-i", "--image", type=str, help="Input image", required=True)
 args = vars(ap.parse_args())
 
 # Load the image and display original
