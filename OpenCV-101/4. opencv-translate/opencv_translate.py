@@ -1,3 +1,6 @@
+# Usage
+# python opencv_translate.py -i ../../Data/Input/opencv_logo.png
+
 # Load the libraries
 import numpy as np
 import cv2
@@ -6,9 +9,8 @@ import imutils
 
 # add arguments from Command line
 ap = argparse.ArgumentParser()
-ap.add_argument(
-    "-i", "--image", type=str, default="opencv_logo.png", help="input image"
-)
+ap.add_argument("-i", "--image", type=str,
+                help="input image", required=True)
 args = vars(ap.parse_args())
 
 # By translate operation, we mean to move image pixels up, down, left or right.
