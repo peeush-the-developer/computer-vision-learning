@@ -1,3 +1,6 @@
+# Usage
+# python opencv_rotate.py -i ../../Data/Input/opencv_logo.png
+
 # Load the libraries
 import argparse
 import cv2
@@ -5,9 +8,8 @@ import imutils
 
 # Add arguments from command line
 ap = argparse.ArgumentParser()
-ap.add_argument(
-    "-i", "--image", type=str, default="opencv_logo.png", help="Input image"
-)
+ap.add_argument("-i", "--image", type=str,
+                help="Input image", required=True)
 args = vars(ap.parse_args())
 
 # Load the image and display original
