@@ -10,6 +10,7 @@ This is the most basic thing to understand how we can use OpenCV for image proce
 - [Translating pixel co-ordinates from one point to another](OpenCV-101/4.opencv-translate/opencv_translate.py)
 - [Rotate an image on a point in image](OpenCV-101/5.opencv-rotate/opencv_rotate.py)
 - [Resize an image maintaining aspect ratio](OpenCV-101/6.opencv-resizing/opencv_resize.py)
-- [Flip an image vertically, horizontally, or both](OpenCV-101/7.opencv_flipping/opencv_flip.py)
+- [Flip an image vertically, horizontally, or both](OpenCV-101/7.opencv-flipping/opencv_flip.py)
+- [Cropping an image](OpenCV-101/8.opencv-cropping/opencv_crop.py)
 
 _More will be added soon..._
