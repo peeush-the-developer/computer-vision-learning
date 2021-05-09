@@ -13,5 +13,7 @@ This is the most basic thing to understand how we can use OpenCV for image proce
 - [Flip an image vertically, horizontally, or both](OpenCV-101/7.opencv-flipping/opencv_flip.py)
 - [Cropping an image](OpenCV-101/8.opencv-cropping/opencv_crop.py)
 - [Image arithmetic in OpenCV](OpenCV-101/9.opencv-image-arithmetic/image_arithmetic.py)
+- [Bitwise ops in OpenCV](OpenCV-101/10.opencv-bitwise/opencv_bitwise.py)
+- [Masking ROI using OpenCV](OpenCV-101/11.opencv-masking/opencv_masking.py)
 
 _More will be added soon..._
