@@ -23,5 +23,6 @@ Using opencv we can process images and get required details out from the image. 
 
 - [Kernels, Convolution](OpenCV-102/01.convolutions-opencv/convolutions.py)
 - [Morphological operations](OpenCV-102/02.morphological-operations/morphological_ops.py)
+  - [PyImageSearch tutorial](https://www.pyimagesearch.com/2021/04/28/opencv-morphological-operations/)
 
 _More will be added soon..._
