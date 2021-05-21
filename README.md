@@ -24,5 +24,13 @@ Using opencv we can process images and get required details out from the image. 
 - [Kernels, Convolution](OpenCV-102/01.convolutions-opencv/convolutions.py)
 - [Morphological operations](OpenCV-102/02.morphological-operations/morphological_ops.py)
   - [PyImageSearch tutorial](https://www.pyimagesearch.com/2021/04/28/opencv-morphological-operations/)
+- [Smoothing and blurring](OpenCV-102/03.smoothing-and-blurring/blurring.py)
+- [Color spaces](OpenCV-102/04.opencv-color-spaces/color_spaces.py)
+- [Thresholding](OpenCV-102/05.opencv-thresholding/thresholding.py)
+- [Adaptive thresholding](OpenCV-102/06.adapative-thresholding/adaptive_thresholding.py)
+- [Image gradients](OpenCV-102/07.image-gradients/opencv_magnitude_orientation.py)
+- [Canny Edge detector](OpenCV-102/08.canny-edge-detector/opencv_canny.py)
+  - [PyImageSearch tutorial](https://www.pyimagesearch.com/2021/05/12/opencv-edge-detection-cv2-canny)
+  - [Auto Canny](https://www.pyimagesearch.com/2015/04/06/zero-parameter-automatic-canny-edge-detection-with-python-and-opencv/)
 
 _More will be added soon..._
