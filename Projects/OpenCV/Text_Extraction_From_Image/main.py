@@ -1,5 +1,5 @@
 # Usage
-# python main.py -i Data/Input/Fire_exit.jpeg Data/Input/Fire_exit.json
+# python main.py -i Data/Input/Fire_exit.jpeg -c Data/Input/Fire_exit.json
 
 # Import libraries
 import cv2
