@@ -1,5 +1,5 @@
 # Usage
-# python generate_aruco.py -o ../../Data/Output/aruco_marker.png -i 24 -t DICT_4x4_50
+# python generate_aruco.py -o ../../Data/Output/aruco_marker.png -i 24 -t DICT_5X5_100
 
 # Import libraries
 import cv2
