@@ -2,3 +2,4 @@
 .vscode
 Setup_dev_env
 **/orig_*.py
+Data/Output/Aruco_markers/
